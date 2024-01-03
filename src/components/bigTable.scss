@@ -1,0 +1,10 @@
+.bigTable{
+    width: 550px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+
+
