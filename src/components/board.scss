@@ -1,0 +1,17 @@
+.Table{
+    background-color: #371188;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+}
+
+.active{
+    background-color: red;   
+    .cell:hover{
+        background-color: #9b9b9b;
+        cursor: pointer;
+    }
+}
+
+
